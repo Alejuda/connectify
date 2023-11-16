@@ -4,8 +4,8 @@ import postsReducer from './posts/postsSlice.js';
 
 const store = configureStore({
   reducer: {
-    missions: missionsReducer,
-    rockets: rocketsReducer,
+    user: userReducer,
+    posts: postsReducer,
   },
 });
 
